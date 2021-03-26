@@ -1,0 +1,190 @@
+
+
+
+
+
+
+#oval {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+  }
+
+body {
+    font-family: dunbar-text,sans-serif;
+	font-size: 32px;
+    display: block;
+    height: 1500px;
+    background-color: rgb(243, 255, 137);
+
+}
+
+
+h1{
+    color: rgb(85, 158, 187);
+    font-size: 120px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    text-align: left;
+    width:1250px;
+    
+    
+    
+ 
+    
+
+}
+text{
+    color: rgb(85, 158, 187);
+    font-size: 100px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    
+ 
+ 
+    
+
+}
+
+#title{
+    color: rgb(85, 158, 187);
+    font-size: 200px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    line-height: 90%;
+    border-top: 2in;
+
+}
+
+#ingredients {
+    font-size: 100px;
+    font-family: Helvetica;
+    width: 1250px;
+    color: rgb(255, 126, 126);
+    line-height: 100%;
+    text-align: left;
+    }
+
+
+    #instructions {
+        font-size: 130px;
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(255, 215, 37);
+    width:1250px;
+
+    line-height: 90%;
+        }
+
+
+        #recipeYield {
+            font-size: 130px;
+        font-family: Helvetica;
+        font-style: italic;
+        font-weight: lighter;
+        color: rgb(115, 190, 115);
+        
+    width:1250px;
+        line-height: 90%;
+        text-align: left;
+            }
+    
+    
+
+
+#description{
+    font-size: 80px;
+    font-family: Helvetica;
+    font-style: italic;
+    width: 1250px;
+    color: rgb(194, 194, 194);
+    text-align: left;
+    
+
+}
+
+
+
+#recipeInstructions{
+
+    font-size: 80px;
+    font-family: Helvetica;
+    font-style: italic;
+    width: 1250px;
+    color: rgb(218, 144, 144);
+    text-align: left;
+    line-height: 85%;
+    
+}
+
+.recipeInstruction:hover {
+     
+
+   line-height: 100%;
+
+    animation: linear;
+    transition-duration: 3s;
+
+    
+ }
+
+#author{
+    font-size: 300px;
+    color: rgb(0, 0, 0);
+    font-family: helvetica;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 80%;
+
+}
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+span{
+	
+	line-height: 100%;
+	
+	animation: span 3s ease-in infinite alternate;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+	font-size: 200px;
+    color: rgb(85, 158, 187);
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.letter{
+    
+    
+	display:flex;
+	height: 200px;
+	width: 60px;
+	
+	border: 60px solid rgb(255, 206, 132);
+	border-radius: 500px;
+    border-top: 20px;
+    
+	
+
+	animation: letter 3s ease-in-out infinite alternate;
+}
+@keyframes span {
+	0%,30%{ margin: 0 2px; }
+	70%,100%{ margin: 0 2px; }
+}
+@keyframes letter {
+	0%,30%{ width: 60px; }
+	70%,100%{ width: 17vw; }
+}
